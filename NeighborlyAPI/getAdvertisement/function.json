@@ -9,7 +9,8 @@
       "methods": [
         "get",
         "post"
-      ]
+      ],
+      "connection":"myDBConn"
     },
     {
       "type": "http",

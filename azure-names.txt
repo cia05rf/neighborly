@@ -1,0 +1,13 @@
+resource group: rg-neighborly
+function app: rf-neighborly-api-v1
+storage acc: neighborlystorageaccount
+location: uksouth
+cosmosDB: neighborly-cosmos-db
+mongoDB: neighborly-mongodb
+mongoDB conn str: mongodb://neighborly-cosmos-db:xQV9dCZB20Qrp9ExYcd1tPE2zguLnmxNipYq0m1u2ZXopuz0uKca2xfKAC5aJInQ8OHD58RYGMmBJAnoMvMUDw==@neighborly-cosmos-db.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@neighborly-cosmos-db@
+app service plan: app-service-plan
+web app: rf-neighborly-app
+local git url: https://None@rf-neighborly-app.scm.azurewebsites.net/rf-neighborly-app.git
+aks cluster: ask-cluster
+container registery: rfContRegistry
+api docker image: docker-api-img
